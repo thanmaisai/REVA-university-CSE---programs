@@ -1,176 +1,116 @@
-/**---------index---------
- * type convetion
- * ---implicit/weinding conversion
- * ---explicit/narrow conversion
- 
- * input/output statements
- * 
- */
-//-----------------------implicit/weinding type conversion------------------------
+/**--------------index------------
+ * selection statements:-
+ * if
+ * if else
+ * nested if
+ * if-else-if
+ * switch
 
-//ex1
-public class javaP6 
-{
+ * itiration statements:-
+ * for
+ * whole
+ * do while
+ * for each
+*/
 
-	public static void main(String args[])
-	{
-		int i =100;
-		double L = 200;
-		double d = i/L;
-    	System.out.println("implicit conversion of int to double:"+ d);
+//if()
 
-	}
-
-}
-//ex2
-public class javaP6
-{
-	public static void main(String[] args)
-	{
-		char ch ='C';
-		int i = ch;
-		System.out.println(i); 				
-	}	
-} 
-//ex3
-public class javaP6
-{
-	public static void main(String[] args)
-	{
-		int i = 100;
-		long l = i; //no explicit type casting required 
-		float f = l; //no explicit type casting required 
-		System.out.println("Int value "+i);
-		System.out.println("Long value "+l);
-		System.out.println("Float value "+f);
-	}
-} 
-
-//------------------explicit/narrow type conversion------------------------
-
-//ex1
-public class javaP6
-{
-    public static void main(String [] args)
-    {
-        char ch = 'c';
-        int num = 88;
-        char ch = (char) num;
-        System.out.println(ch);
-    }
-} 
-//ex2
-public class javaP6
+class javaP5
 {
     public static void main(String args[])
     {
-        int i=97;
-        char ch = (char) i;
-        System.out.println("Character value of the given integer: "+ch);
-	}
+        int num=70;
+        if( num < 100 )
+        {
+            //This println statement will only execute,if the above condition is true
+            System.out.println("number is less than 100") 
+        }
+    }
 }
-//ex3
-class Narrow2
+
+
+//if else()
+
+class javaP5
 {
-public static void main(String[] args)
+    public static void main(String args[])
     {
-        double d = 200.03;
-        long l = (long)d;                       //explicit type casting 
-        int i = (int)l;                         //explicit type casting  
-        System.out.println("Double value "+d);  //fractional part lost 
-        System.out.println("Long value "+l);    //fractional part lost                   
-        System.out.println("Int value "+i);
+        int num=70;
+        if ( num % 2 == 0 )
+        { 
+	        System.out.println("Entered number is even"); 
+        }
+        else 
+        {
+	        System.out.println("Entered number is odd"); 
+        }
+        
     }
 }
 
 
 
-//------------------------------constructors in java------------------------------
-//--------------------default constructor 
 
-class Bike1
+
+
+//while loop
+
+public class javaP5
 {  
-//creating a default constructor  
-    Bike1()
-    {
-        System.out.println("Bike is created");
-    }  
-//main method  
-    public static void main(String args[])
+    public static void main(String[] args) 
     {  
-        //calling a default constructor  
-        Bike1 b=new Bike1();  
+        int i=1;  
+        while(i<=3)
+        {  
+            System.out.println(i);  
+            i++;  
+        }  
     }  
-}  
-
-
-
-
-//--------------------parameterised constructor
-class Square                                // square is a costructor 
-{
-    int width,height;  
-    Square( int a , int b)                  // declaring parameters
-    {
-        width = a;
-        height = b;
-    }
-    int area() 
-    {
-        return width * height;
-    }
-}
-class javaP6 //main class 
-{
-    public static void main(String[] args)
-    {
-        Square s1 = new Square(10,20);      // creating object and initializing values
-        int area_of_sqaure = s1.area();     //calling method square
-        System.out.println("The area of square is:" + area_of_sqaure);
-    }
 }
 
-//-----------------------------------input/output statements-------------------------------------------
-//print statement:
 
-import java.io.*;
-class javaP6
-{
-	public static void main(String[] args)
-    {
-        // using print()  all are printed in the same line
-        System.out.print("reva ");
-        System.out.print("reva ");
-        System.out.print("reva ");
+//do-while loop
+
+public class javaP5
+{  
+    public static void main(String[] args) 
+    {  
+        int i=1;  
+        do{  
+            System.out.println(i);  
+            i++;  
+        }while(i<=3);  
+    }  
     }
-} 
 
 
-//println
+ //for loop
 
-import java.io.*;
-class javaP6
-{
-	public static void main(String[] args)
-	{
-	    // using println() all are printed in the   different line         
-	    System.out.println("Reva ");
-	    System.out.println("Reva "); 
-	    System.out.println("Reva ");
-	}
-} 
+public class javaP5
+ {  
+public static void main(String[] args)
+ {  
+    //Code of Java for loop  
+    for(int i=1;i<=10;i++)
+{  
+        System.out.println(i);  
+  }  
+  }  
+}
 
 
-//printf
+//for-each loop
 
-import java.util.Date;
-class javaP6
-{
-    public static void main(String args[])
-    {
-        String data = "Hello World!";
-        int x = 9876;
-        Date date = new Date();
-        System.out.printf("Printing multiple data at once: %S %d %t\n", data,x,date);
-    } 
+public class javaP5
+{  
+    public static void main(String[] args) 
+    {  
+        //Declaring an array  
+        int arr[]={12,23,44,56,78};  
+        //Printing array using for-each loop  
+        for(int i:arr)
+        {  
+            System.out.println(i);  
+        }  
+    }  
 }
