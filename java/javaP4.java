@@ -1,5 +1,6 @@
 // declaration, instantiation and initialization of Java 1D array in a single line 
 
+
 //Java Program to illustrate the use of declaration, instantiation and initialization of 
 //Java 1D array in a single line 
 //example1: 
