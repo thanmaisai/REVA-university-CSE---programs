@@ -2,11 +2,10 @@
 -->Java program to read character using Scanner
 -->next().charAt(0)--Reads first character in the string
 -->nextDouble()--Reads a double value from the user
--->nextFloat()--
--->nextInt()--
+-->nextFloat()
+-->nextInt()
 -->nextLine()--Reads a String value from the use
--->next()--
--->
+-->next()
 */
 
 // next().charAt(0)---Reads first character in the string
