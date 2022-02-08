@@ -1,5 +1,5 @@
 import java.util.*;
-public class StackLinked
+public class stackLinked
 {
     public static void main(String[] args) 
 	{
