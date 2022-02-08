@@ -156,7 +156,7 @@ class javaP{
 
 // --------------------------------------------Logical Operators
 
-class javaP  
+class javaP 
 { 
 	public static void main(String[] args)  
     { 
