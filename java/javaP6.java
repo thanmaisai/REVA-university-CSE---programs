@@ -2,7 +2,7 @@
  * type convetion
  * ---implicit/weinding conversion
  * ---explicit/narrow conversion
- * 
+ 
  * input/output statements
  * 
  */
