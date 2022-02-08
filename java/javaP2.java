@@ -14,7 +14,6 @@ class javaP2
     }
 }
 
-
 //>>>>>>>>substring()----returns a part of the string.
 
 public class javaP2
