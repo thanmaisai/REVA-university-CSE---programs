@@ -1,15 +1,15 @@
 # split and join a string
-'''
+
 string="thanmai sai"
 string_split=string.split()
 print(string_split)
 new_string='-'.join(string_split) # whatever you put in the ' ' will be used as a delimiter
 print(new_string)
-'''
+
 
 
 # check if a string is palindrome or not
-'''
+
 def check_palandrome(str):
     if(str==str[::-1]):
         return print("yes the string %s is a palandrome"%str)
@@ -18,9 +18,9 @@ def check_palandrome(str):
 
 str="malayalam"
 check_palandrome(str)
-'''
+
 # check whether the string is Symmetrical or Palindrome
-'''
+
 string = 'amaama'
 half = int(len(string) / 2)
 
@@ -42,11 +42,11 @@ if first_str == second_str[::-1]: # ''.join(reversed(second_str)) [slower]
 	print(string, 'string is palindrome')
 else:
 	print(string, 'string is not palindrome')
-'''
+
 
 
 # Reverse words in a given String in Python
-'''
+
 str1 = "geeks quiz practice code"
 str_split=str1.split()
 # join--> It merges the strings representation of the given sequence. 
@@ -54,10 +54,10 @@ str_split=str1.split()
 # However, reversed() method takes a list and returns an iterator of it in reverse order.
 new_str=' '.join(reversed(str_split))
 print(new_str)
-'''
+
 
 # Check if a Substring is Present in a Given String
-'''
+
 str1=" this is a string written by me"
 sub_str="written"
 
@@ -72,18 +72,18 @@ if(str1.count(sub_str)>0):
     print(True)
 else:
     print(False)
-'''
+
 
 # remove i’th character from string in Python
-'''
+
 str1="thanmai"
 pos=int(input("Enter the i th charater to be removed: ")) #3
 new_str=str1[:pos] +str1[pos+1:] #[0,1] to [3,4,5,6] and thus index 2 i.e(n) from thanmai is removed 
 print(new_str)
-'''
+
 
 # print even length words in a string
-'''
+
 def even_length_str(x):
     for i in x:
         if(len(i)%2==0):
@@ -95,23 +95,23 @@ def even_length_str(x):
 str1="hi my name is thanmai sai i am from reva university"
 x=str1.split()
 even_length_str(x)
-'''
+
 
 # length of a string can be found in two ways  1) len() or  2) itirate and increment the count variable and the print count 
 
 
 # Convert Snake case to Pascal case
-'''
+
 test_str = 'geeksforgeeks_is_best'
 # replace()-->It replaces the old sequence of characters with the new sequence. SYNTAX: replace(old,new[,count])
 # title()--> It is used to convert the string into the title-case i.e., The string meEruT will be converted to Meerut.
 new_str=test_str.replace("_","").title().replace(" ","")
 # here first we r replacing _ with space then title() converds all the saperate words in title-case then again we are replacing space with no space.
 print(new_str)
-'''
+
 
 # Words Frequency in String 
-'''
+
 # logic method1
 # words will be keys and number of times its repeted is the value thus {key:value} i.e,{'hello':2} 
 def word_feq(x):
@@ -141,11 +141,11 @@ res2 = Counter(str1.split())
 # # using of counter keyword will creat a dictionary with keys as words or letters and value as the number of times the word is repeated
 print("The words frequency is : " + str(res1))
 print("The words frequency is : " + str(res2))
-'''
+
 
 
 # Remove all duplicates from a given string
-'''
+
 # method1 convert string to set
 def remove_dublicate1(str2):
     # a set never contains dublicates thus by coverting a string to set will remove the repeted charaters in the string 
@@ -170,10 +170,9 @@ def remove_duplicate2(str):
 	
 str="geeksforgeeks"
 remove_duplicate2(str)
-'''
+
 #Find words which are greater than given length k
 
-'''
 str = "hello geeks for geeks is computer science portal" 
 k = 4
 str_1=str.split()
@@ -183,10 +182,10 @@ for i in str_1:
         str2.append(i)
 
 print(' '.join(str2))
-'''
+
 
 # Check if a given string is binary string or not
-'''
+
 str="01000111100a1"
 str2=set(str)
 bset={'0','1'}
@@ -194,9 +193,9 @@ if(bset==str2 or str2=={'0'} or str2=={'1'}):
     print(True)
 else:
     print(False)
-'''
+
 # find uncommon words from two Strings
-'''
+
 def uncommon_words(a,b):
     set1=a.split()
     set2=b.split()
@@ -222,7 +221,7 @@ def uncommon_words(a,b):
 a = "Geeks for Geeks" 
 b = "Learning from Geeks for Geeks"
 print(uncommon_words(a, b))
-'''
+
 
 # https://www.geeksforgeeks.org/python-replace-duplicate-occurrence-in-string/
 # https://www.geeksforgeeks.org/python-replace-multiple-words-with-k/
@@ -239,22 +238,22 @@ function/method definitions  and even try/except block.
 This function doesn't return anything.
 '''
 
-'''
+
 # function illustrating how exec() functions.
 def exec_code():
-    LOC = """
+    LOC = 
 def factorial(num):
     fact=1
     for i in range(1,num+1):
         fact = fact*i
     return fact
 print(factorial(5))
-"""
+
     exec(LOC)
      
 # Driver Code
 exec_code() # this prints the output 120
-'''
+
 
 # String slicing in Python to rotate a string
 
@@ -277,79 +276,3 @@ def rotaion_str(Str,d):
     print("right rotation: ", (b_right+a_right))
 
 rotaion_str(str, d)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
