@@ -4,7 +4,7 @@
 
 
 # find the sum of elements in a array
-'''
+
 # creat an empty list as array
 arr=[]
 # user input of elements into the list
@@ -23,10 +23,10 @@ def arr_sum(arr):
     return sum
 
 print("the sum of %s is %d"%(arr,arr_sum(arr)))
-'''
+
 
 # find largest element in an array
-'''
+
 # creat an empty list as array
 arr=[]
 # user input of elements into the list
@@ -53,10 +53,10 @@ def largest_num_arr(arr,x):
 #     return y
 
 print("the largest number in %s is %d"%(arr,largest_num_arr(arr,x)))
-'''
+
 
 # array rotation or Split the array and add at last part to the end
-'''
+
 # def split_arr(arr,x,pos): #using list methods
 #    b = arr[:pos]
 #    return (arr[pos::]+b[::])
@@ -82,10 +82,10 @@ pos=int(input("enter tghe position to split at: "))
 split_arr(arr, x, pos)
 for i in range(0,x):
     print(arr[i],end=" ")
-'''
+
 
 # Find remainder of array multiplication divided by n
-'''
+
 arr=[]
 # user input of elements into the list
 n=int(input("Number of elements in the array: "))
@@ -106,10 +106,10 @@ div_num=int(input("enter the number to divide: "))
 mul_sum=arr_mul_div(arr)
 xyz=mul_sum%div_num
 print("output: ",xyz)
-'''
+
 
 # check if given array is Monotonic
-'''
+
 # An array is monotonic if it is either monotone increasing or monotone decreasing
 # An array A is monotone increasing if for all i <= j, A[i] <= A[j] 
 # An array A is monotone decreasing if for all i <= j, A[i] >= A[j]
@@ -123,14 +123,3 @@ for i in range(0,n):
     ele=int(input())
     arr.append(ele)
 print("%s is Montonic %s"%(arr,isMontonic(arr)))
-'''
-
-
-
-
-
-
-
-
-
-
