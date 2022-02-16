@@ -7,7 +7,7 @@ SYNTAX: [start:end:step]
 '''
 
 # interchange first and last elements in a list
-'''
+
 def swap_in_list1(list):
     # normal method
     size = len(list)
@@ -31,10 +31,10 @@ for i in range(0,n):
 
 print("Before interchanging the list: ",list)
 print("after interchaning: ",swap_in_list1(list))
-'''
+
 
 # swap two elements in a list
-'''
+
 def swap_pos_in_list(list,pos1,pos2):
     #simple swaping using comas
     list[pos1],list[pos2]=list[pos2],list[pos1]
@@ -59,10 +59,10 @@ pos2=int(input("enter the second position: "))
 print("Before interchanging: ",list)
 #we use the pos-1 and pos2-1 cuz in indexing od list it starts from 0 
 print("after interchaning: ",swap_pos_in_list(list,pos1-1,pos2-1))
-'''
+
 
 # Reversing a List in Python
-'''
+
 def reverse_list(list):
     # in-built reverse function 
     # rev_list=list.reverse()
@@ -82,12 +82,12 @@ for i in range(0,n):
 print("original list:",list)
 print("reversed list",reverse_list(list))
 
-'''
+
 # result = numpy.prod(list) gives the multiplication of all the elements in the list
 # result = math.prod(list) gives product of list and we need to import math module to use math.prod()
 
 # find smallest
-'''
+
 # uning min(list) by inbuilt method or by list.sort() and printing the first elemnet or 
 l=[ int(l) for l in input("List:").split(",")]
 print("The list is ",l)
@@ -100,10 +100,10 @@ for i in range(len(l)):
 		min1 = l[i] #It will change
 
 print("The smallest element in the list is ",min1)
-'''
+
 
 # find largest
-'''
+
 # uning max(list) by inbuilt method or by list.sort() and then printing the last element or 
 l=[ int(l) for l in input("List: ").split(",")]
 print("The list is ",l)
@@ -116,10 +116,10 @@ for i in range(len(l)):
 		max1 = l[i] #It will change
 
 print("The largest element in the list is: ",max1)
-'''
+
 
 # find second largest 
-'''
+
 # list.sort() and the returning the second last element list[-2] or the below logic
 def second_largest(arr):
 	secondLargest = arr[0]
@@ -142,11 +142,11 @@ for i in range(0,n):
     list.append(ele)
 
 print("The second largest number in %s is: %d "%(list,second_largest(list)))
-'''
+
 
 
 # cumultive sum 
-'''
+
 def cumultive_sum(list):
     new_list=[]
     j=0
@@ -161,10 +161,9 @@ for i in range(0,n):
     ele=int(input())
     list.append(ele)
 print("the cumulative list is: ",cumultive_sum(list))
-'''
 
 # sort one list based on another list
-'''
+
 # syntax for zipping and unzipping
 # zipping 2 lists-->    zip_file=zip(list1,list2)
 # unzipping a list-->   list1_after_unzipped,list2_after_unzipped=zip(*zip_file)
@@ -191,17 +190,14 @@ list1 = ["g", "e", "e", "k", "s", "f", "o", "r", "g", "e", "e", "k", "s"]
 list2 = [ 0, 1, 1, 0, 1, 2, 2, 0, 1]
 
 print(sort_list(list1, list2))
-'''
 
 # Break a list into chunks of size N
-'''
 list=[1,2,3,4,5,6,7,8,9]
 n=int(input("Enter the number of elements per list: "))
 for i in range(0,len(list),n):
 
     x = list[i:i + n]
     print(x,end=" ")
-'''
 
 
 
