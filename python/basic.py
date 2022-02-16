@@ -8,7 +8,7 @@ num=int(input("enter the number: " ))
 print("The factorial of %d is %d \n" % (num,factorial_num(num)))
 '''
 
-'''
+
 # -------->   using iteration method 
 def factorial_num1(n):
     if(n<0):
@@ -24,12 +24,12 @@ def factorial_num1(n):
 
 num=int(input("enter the number: " ))
 print("The factorial of %d is %d \n" % (num,factorial_num1(num)))
-'''
+
 
 # simple_intrest = (principle_amount*time*rate_of_intrest)/100 #logic 
 
 # compound intrest (logic)
-'''
+
 # amount = principle_amount(1+rate_of_intrest/100)^time
 # compunt_intrest = amount - principle_amount
 import math
@@ -42,13 +42,13 @@ p=int(input("enter the principle amount: " ))
 t=int(input("enter the time period: " ))
 r=int(input("enter the rate of intrest: " ))
 print("the compunt intrest is %d" %CPI(p,r,t))
-'''
+
 
 # Armstrong Number 
 # abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + .... or abcd = a^n + b^n + c^n + d^n
 
 #general method (worng progrm--some error)
-'''
+
 import math
  
 # check the number of digjits in the given number
@@ -72,10 +72,10 @@ def isamstrong(num):
 
 num=int(input("enter the number: " ))
 print("The number %d is amstrong %d \n" % (num,isamstrong(num)))
-'''
+
 
 # or Using Strings check amstrongof a number
-'''
+
 def isamstrong(n):
     number=str(n)
     x=len(n)
@@ -90,10 +90,10 @@ def isamstrong(n):
     
 z= input("Enter the number: ")
 print("The number %s is amstrong %s"%(z,isamstrong(z))) 
-'''
+
 
 # check if a number is prime
-'''
+
 num=int(input("Enter the number to check: "))
 # for numbers grater than 1
 if num > 1:
@@ -107,12 +107,12 @@ if num > 1:
             print(num,"is a prime number")
 else: # for numbers less than 1
     print(num,"is not a prime number")
-'''
+
 
 # ord( ) method is used to a string length of 1 and return a unicode value(there is no character datatype in python) 
 
 # Python Program for Sum of squares of first n natural numbers
-'''
+
 def squaring(num):
     sum=0
     for i in range(1,n+1):
@@ -120,10 +120,10 @@ def squaring(num):
     return x
 num=int(input("Enter the nth number: "))
 print(squaring(num))
-'''
+
 
 #  Python Program for Sum of cube of first n natural numbers
-'''
+
 def cubing(n):
     sum=0
     for i in range(1,n+1):
@@ -132,11 +132,11 @@ def cubing(n):
 
 num=int(input("Enter the nth number: "))
 print("The cube of %d is %d "%(num,cubing(num)))
-'''
+
 
 
 # prime number in an interval (didnt get logic)
-'''
+
 def prime(x, y):
     #empty list 
 	prime_list = []
@@ -160,7 +160,7 @@ if len(lst) == 0:
 	print("There are no prime numbers in this range")
 else:
 	print("The prime numbers in this range are: ", lst)
-'''
+
 
 
 
