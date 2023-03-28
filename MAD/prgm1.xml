@@ -11,8 +11,8 @@
         android:id="@+id/button"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
-        android: android:layout_centerHorizontal="true"
-        android: android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:text="Know more" />
 
     <TextView
