@@ -1,12 +1,20 @@
-
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#988D8D"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android: android:layout_centerHorizontal="true"
+        android: android:layout_marginTop="50dp"
+        android:text="Know more" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="371dp"
@@ -57,7 +65,7 @@
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
         android:layout_marginBottom="64dp"
-        android:text="Email Id: 0.manoj@gmail.com"
+        android:text="Email Id: thanmaisai@gmail.com"
         android:textAlignment="center"
         android:textColor="@color/purple_500"
         android:textSize="24sp" />
@@ -109,7 +117,7 @@
         android:layout_marginEnd="140dp"
         android:layout_marginRight="140dp"
         android:layout_marginBottom="401dp"
-        android:text="Manoj"
+        android:text="Thanmai sai"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -129,9 +137,4 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="192dp"
-        android:layout_height="wrap_content"
-        android:text="Know more" />
 </RelativeLayout>
