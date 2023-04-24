@@ -1,0 +1,17 @@
+1.open the vshere client 
+2.right click on any avaialble VM and select edit settings
+3.Change the CD/DCD drive from “datasore” to “Client Device”.
+4.Make sure that the VM is turned OFF
+------------------------------------------
+5.Select the VM which you want to clone
+6.goto file then export , select export OVF template 
+7.Select the destination where you wanted to store the copy of VM
+8.the export will be in progress and gradually completed 
+9. goto file , deploy OVF template
+10.browse for the location where the OVF file is avaialbel 
+11.give the name and location for the deployed template
+12. select thin provision and proceed further 
+13.deployement completed successfully
+14.create another clone in the similar manner by giving different name and deploying it successfully 
+15.power on the VM and open the console 
+16. obtain the ip address of the 1st VM , and communicate using the ping command 
