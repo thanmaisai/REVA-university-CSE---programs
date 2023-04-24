@@ -1,0 +1,36 @@
+1. open vmware workstation
+2. power on the hypervisior esxi
+3.note down the ip address of the PM
+4.open the vsphere client , enter the PM ip address, username and id as root and root123
+5.Right click on the hypervisior , new virtual machine
+6.It opens a dialougebox , select typical option(configuration)
+7.Give a name for Vm and click next(name and location)
+8.select the storage from list(default)
+9.select the VM version as version 8 , next(VM version)
+10.select the type of OS as windows and version as microsoft windows xp proffesion 32-bit , next(Guest OS)
+11.select the no.of virtual cores(default)(CPU)
+12.For creating a disk,select the amount of RAM as 8gb, thin provision undeer virtual disk,next(memory)
+13.To create network connections , choose vm network option of NIC-1 CSE and under adapter select flexible , next(network)
+14.select SCSI controller and LSI Logic Parallel(SCSI controller)
+15.click on create new disk,next(select a disk)
+16.enter the capacity of the disk as 512MB , thin privision and location be default , next
+17.in the {advanced options} , default and {ready to complete step} , select eit vm settings and  Review the configuration and finish.
+18.select the VM and click on Edit Virtual machine settings.
+19.Click on CD/DVD drive 1, select datastore ISO file and locate the ISO on the datastore.
+20.Turn on the virtual machine and proceed with normal installation of OS in to that VM.
+---create another VM with the abpve steps ----
+21. right click on the VM and select power on 
+22. right ckick on the VM and click on open console 
+23. Find the IP address of those VM’s using “ipconfig” command in command prompt
+       -----------1a--------
+24.Check the connectivity for the communication between those VM’s using PING command as 
+“ping <ip address of other VM>”
+25.the communication between virtual machines will be successful , whereas the communication between the PM and VM fails dispalying as time out 
+26. For the communication , The firewall in the VM shoukd be disabled(go to control panel) and then again Check the connectivity for the communication using ping command.
+       ---------1b-----------snapshot and restore 
+27.create folders or files in the desktopof VM 
+28.right click on the vm and select the snapshot to be stored , u can also name the snapsot,Then make changes/updates in the current VM 
+29.if any file/data is deleted by mistake it can be retrieved back 
+30.right click on VM ,seelct snapshot , select revert to current snaphot for restoring 
+31.the deleted data is restored,If you ever taken too many snapshots for the same VM, need to manage and revert to required state of VM
+32.before closing all the tabs, make sure to power off VM's to avoid crashing of system
