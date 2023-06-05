@@ -8,8 +8,10 @@
  - reguster 
  ![image](https://github.com/thanmaisai/REVA-university-CSE---programs/assets/91474486/be648e07-342f-43e3-8cb2-cf14bcd1fa4d)
 
-
-if(print("str")){} - string printed in a if cond will give length 
+```
+if(print("str")){} 
+// string printed in a if cond will give length 
+```
 
 ### bit wise
 & - AND , | - OR , ^ - XOR
@@ -20,6 +22,7 @@ if(print("str")){} - string printed in a if cond will give length
 
 ![image](https://github.com/thanmaisai/REVA-university-CSE---programs/assets/91474486/e4d58d6e-10fd-4838-ab3d-b768cf10d870)
 
-
+```
 for(int i =0;i<10i++); // will run the loop and then finally print the rrsult as 10
 {print(i)}
+```
