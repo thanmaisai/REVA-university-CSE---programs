@@ -19,3 +19,7 @@ if(print("str")){} - string printed in a if cond will give length
 - << - left 
 
 ![image](https://github.com/thanmaisai/REVA-university-CSE---programs/assets/91474486/e4d58d6e-10fd-4838-ab3d-b768cf10d870)
+
+
+for(int i =0;i<10i++); // will run the loop and then finally print the rrsult as 10
+{print(i)}
