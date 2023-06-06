@@ -26,3 +26,29 @@ if(print("str")){}
 for(int i =0;i<10i++); // will run the loop and then finally print the rrsult as 10
 {print(i)}
 ```
+
+## programming 
+
+### patterns logic 
+```
+int num;
+    char letter = 'A';
+    
+    printf("Enter your num: ");
+    scanf("%d", &num);
+    
+    for(int i=0;i<num;i++){
+        for(int j=0;j<=i;j++){
+            printf("%c", letter);
+        }
+        printf("\n");
+        letter++;
+    }
+
+//OUTPUT: 
+ A
+ BB
+ CCC
+ DDDD
+ EEEE
+```
