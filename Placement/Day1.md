@@ -9,7 +9,7 @@
  ![image](https://github.com/thanmaisai/REVA-university-CSE---programs/assets/91474486/be648e07-342f-43e3-8cb2-cf14bcd1fa4d)
 
 ```
-if(print("str")){} 
+if(print("str")){ } 
 // string printed in a if cond will give length 
 ```
 
