@@ -13,10 +13,8 @@ class freq_str {
                 arr[str.charAt(i)-97]++;
             }
         }
-        for(int i=0;i<26;i++){
-            if(arr[i]>0){
-                System.out.println((char)(i+97)+":"+arr[i]);
-            }
+        for(int i=0;i<n;i++){
+                System.out.println(str.charAt(i)+":"+arr[(int)str.charAt(i)-97]);
         }
     }
     
