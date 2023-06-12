@@ -14,7 +14,7 @@ if(print("str")){ }
 ```
 
 ### bit wise
-& - AND , | - OR , ^ - XOR
+& - AND , | - OR , ^ - XOR 
 
 ### shift operatiors
 - '>> - right
