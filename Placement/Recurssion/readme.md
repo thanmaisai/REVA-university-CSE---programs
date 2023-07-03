@@ -12,3 +12,4 @@
 | [printNumber.java](printNumber.java) | Prints a sequence of numbers. |
 | [fib.java](fib.java) | Prints a sum of fibonacci numbers. |
 | [binarySearch.java](binarySearch.java) | find an key val in the array|
+| [printNumInOrder.java](printNumInOrder.java) | Print elements in ascending or descending order |
