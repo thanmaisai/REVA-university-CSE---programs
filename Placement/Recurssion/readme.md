@@ -14,3 +14,4 @@
 | [binarySearch.java](binarySearch.java) | find an key val in the array|
 | [printNumInOrder.java](printNumInOrder.java) | Print elements in ascending or descending order |
 | [factorial.java](factorial.java) | Print factorial of a number |
+| [sumOfDigits.java](sumOfDigits.java) | Print the sum of the digits in a number |
