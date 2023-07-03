@@ -17,3 +17,4 @@
 | [sumOfDigits.java](sumOfDigits.java) | Print the sum of the digits in a number |
 | [reverseANumber.java](reverseANumber.java) | reverse the digits in the number  |
 | [palandrom.java](palandrom.java) | say if the string is palandrome or not  |
+| [countZeorInNum.java.java](countZeorInNum.java) | count the number of zeros in the number  |
