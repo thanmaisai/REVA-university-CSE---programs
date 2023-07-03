@@ -1,6 +1,6 @@
 //inheritance - "extends" keyword
 // parent/base class and child/derived class
-// types - 6
+// types - 5 => single,multilevel,heirarchial,hybrid,multiple(not there in java)
 
 
 class Shape{
