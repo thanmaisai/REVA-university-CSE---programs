@@ -2,6 +2,8 @@
 - base condition(bc) is used to stop the recurssion
 - if no bc then stack overflow error
 - space complexity is not constant cuz of recurssive calls
+- tail recurssion: if the fun call is the last step
+- head recurssion: if the fun call is not the last step
 
 
 
