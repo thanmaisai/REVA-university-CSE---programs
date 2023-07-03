@@ -8,3 +8,4 @@
 | File              | Description                          |
 |-------------------|--------------------------------------|
 | [printNumber.java](printNumber.java) | Prints a sequence of numbers. |
+| [fib.java](fib.java) | Prints a sum of fibonacci numbers. |
