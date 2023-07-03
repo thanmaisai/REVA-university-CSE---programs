@@ -1,6 +1,7 @@
 public class sumOfDigits {
     public static void main(String[] args) {
-        System.out.println(sum_of_digits(1345));
+        System.out.println(sum_of_digits(13));
+         System.out.println(prod_of_digits(13));
     }
 
     static int res = 0;
@@ -13,10 +14,9 @@ public class sumOfDigits {
     }
 
     // similarly for product of digits 
-    static int prod_res = 0;
     static int prod_of_digits(int num){
-        if(num==0) return 0;
-        return (num%10) * sum_of_digits(num/10);
+        if(num%10==num) return num;
+        return (num%10) * prod_of_digits(num/10);
     }
 
     
