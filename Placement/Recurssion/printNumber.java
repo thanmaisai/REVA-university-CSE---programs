@@ -11,6 +11,6 @@ class printNumber {
             return;
         }
         System.out.println(start);
-        printnum(n,start+1); // recurssion
+        printnum(n,start+1); // tail recurssion
     }
 }
