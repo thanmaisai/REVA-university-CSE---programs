@@ -22,13 +22,13 @@
 ## Arrays
 | File              | Description                          |
 |-------------------|--------------------------------------|
-|[sortArrays.java](sortArrays.java)| check if an array is sorted or not|
-|[linearSearch.java](linearSearch.java)| apply linear search for a key element and get index|
-| [binarySearch.java](binarySearch.java) | find an key val in the array|
-| [binarySearch2.java](binarySearch2.java) | find an key val in the rotated array|
-| [bubbleSort.java](bubbleSort.java) | Bubble sort for an array|
-| [selectionSort.java](selectionSort.java) | selection sort for an array|
+|[sortArrays.java](Arrays/binarySearch2.java)| check if an array is sorted or not|
+|[linearSearch.java](Arrays/linearSearch.java)| apply linear search for a key element and get index|
+| [binarySearch.java](Arrays/binarySearch.java) | find an key val in the array|
+| [binarySearch2.java](Arrays/binarySearch2.java) | find an key val in the rotated array|
+| [bubbleSort.java](Arrays/bubbleSort.java) | Bubble sort for an array|
+| [selectionSort.java](Arrays/selectionSort.java) | selection sort for an array|
 
 ## Strings
-| [pattern1.java](pattern1.java) | print an triangle |
-| [pattern2.java](pattern1.java) | print an triangle |
+| [pattern1.java](Strings/pattern1.java) | print an triangle |
+| [pattern2.java](Strings/pattern2.java) | print an triangle |
