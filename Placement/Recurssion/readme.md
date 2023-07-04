@@ -11,7 +11,6 @@
 |-------------------|--------------------------------------|
 | [printNumber.java](printNumber.java) | Prints a sequence of numbers. |
 | [fib.java](fib.java) | Prints a sum of fibonacci numbers. |
-| [binarySearch.java](binarySearch.java) | find an key val in the array|
 | [printNumInOrder.java](printNumInOrder.java) | Print elements in ascending or descending order |
 | [factorial.java](factorial.java) | Print factorial of a number |
 | [sumOfDigits.java](sumOfDigits.java) | Print the sum of the digits in a number |
@@ -25,3 +24,5 @@
 |-------------------|--------------------------------------|
 |[sortArrays.java](sortArrays.java)| check if an array is sorted or not|
 |[linearSearch.java](linearSearch.java)| apply linear search for a key element and get index|
+| [binarySearch.java](binarySearch.java) | find an key val in the array|
+| [binarySearch2.java](binarySearch2.java) | find an key val in the rotated array|
