@@ -27,6 +27,7 @@
 | [binarySearch.java](binarySearch.java) | find an key val in the array|
 | [binarySearch2.java](binarySearch2.java) | find an key val in the rotated array|
 | [bubbleSort.java](bubbleSort.java) | Bubble sort for an array|
+| [selectionSort.java](selectionSort.java) | selection sort for an array|
 
 ## Strings
 | [pattern1.java](pattern1.java) | print an triangle |
