@@ -1,11 +1,16 @@
 package Arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class linearSearch {
     public static void main(String[] args) {
         int arr[]={1,66,2,4,66,79};
         int key =  66;
         System.out.println(findFirstIndex(arr,key,0));
         System.out.println(FindLastIndex(arr,key,arr.length-1));
+        FindAllIndex(arr,key,0);
+        System.out.println(list);
     }
 
     // search for a first occurance
@@ -28,5 +33,17 @@ public class linearSearch {
             return i; //4
         }
         return FindLastIndex(arr, key, i-1);
+    }
+
+     // search for a all the occurance's of a key
+    static ArrayList<Integer> list = new ArrayList<>();
+    static void FindAllIndex(int [] arr, int key,int i){
+        if(i==arr.length){
+            return;
+        }
+        if(arr[i]==key){
+            list.add(i); 
+        }
+        FindAllIndex(arr, key, i+1);
     }
 }
