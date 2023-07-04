@@ -9,8 +9,9 @@ public class linearSearch {
         int key =  66;
         System.out.println(findFirstIndex(arr,key,0));
         System.out.println(FindLastIndex(arr,key,arr.length-1));
-        FindAllIndex(arr,key,0);
-        System.out.println(list);
+        // FindAllIndex(arr,key,0);
+        // System.out.println(list);
+        System.out.println(FindAllIndexhere(arr,key,0,new ArrayList<>()));
     }
 
     // search for a first occurance
@@ -45,5 +46,17 @@ public class linearSearch {
             list.add(i); 
         }
         FindAllIndex(arr, key, i+1);
+    }
+
+
+    // another approach to return a list directly and print it
+    static ArrayList FindAllIndexhere(int [] arr, int key,int i,ArrayList<Integer> list){
+        if(i==arr.length){
+            return list;
+        }
+        if(arr[i]==key){
+            list.add(i); 
+        }
+        return FindAllIndexhere(arr, key, i+1,list);
     }
 }
