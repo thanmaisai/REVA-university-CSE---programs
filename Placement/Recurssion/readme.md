@@ -29,3 +29,4 @@
 
 ## Strings
 | [pattern1.java](pattern1.java) | print an triangle |
+| [pattern2.java](pattern1.java) | print an triangle |
