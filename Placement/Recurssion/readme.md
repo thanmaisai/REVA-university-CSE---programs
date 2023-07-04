@@ -19,3 +19,8 @@
 | [palandrom.java](palandrom.java) | say if the string is palandrome or not  |
 | [countZeorInNum.java](countZeorInNum.java) | count the number of zeros in the number  |
 | [numberOfSteps.java](numberOfSteps.java) | [count number is steps required - leetcode](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) |
+
+## Arrays
+| File              | Description                          |
+|-------------------|--------------------------------------|
+|[sortArrays.java](sortArrays.java)| check if an array is sorted or not|
