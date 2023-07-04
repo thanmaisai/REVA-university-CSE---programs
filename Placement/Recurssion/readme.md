@@ -24,3 +24,4 @@
 | File              | Description                          |
 |-------------------|--------------------------------------|
 |[sortArrays.java](sortArrays.java)| check if an array is sorted or not|
+|[linearSearch.java](linearSearch.java)| apply linear search for a key element and get index|
