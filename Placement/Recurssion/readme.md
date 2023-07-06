@@ -30,5 +30,7 @@
 | [selectionSort.java](Arrays/selectionSort.java) | selection sort for an array|
 
 ## Strings
-| [pattern1.java](Strings/pattern1.java) | print an triangle |
-| [pattern2.java](Strings/pattern2.java) | print an triangle |
+| File              | Description                          |
+|-------------------|--------------------------------------|
+| [pattern1.java](Strings/pattern1.java) | print an triangle|
+| [pattern2.java](Strings/pattern2.java) | print an triangle|
