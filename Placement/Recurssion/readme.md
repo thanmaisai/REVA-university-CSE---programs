@@ -29,6 +29,7 @@
 | [bubbleSort.java](Arrays/bubbleSort.java) | Bubble sort for an array|
 | [selectionSort.java](Arrays/selectionSort.java) | selection sort for an array|
 | [mergesort.java](Arrays/mergesort.java) | merge sort for an array|
+| [quicksort.java](Arrays/quicksort.java) | quick sort  for an array|
 
 ## Strings
 | File              | Description                          |
