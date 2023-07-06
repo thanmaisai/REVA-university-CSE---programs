@@ -28,6 +28,7 @@
 | [binarySearch2.java](Arrays/binarySearch2.java) | find an key val in the rotated array|
 | [bubbleSort.java](Arrays/bubbleSort.java) | Bubble sort for an array|
 | [selectionSort.java](Arrays/selectionSort.java) | selection sort for an array|
+| [mergesort.java](Arrays/mergesort.java) | merge sort for an array|
 
 ## Strings
 | [pattern1.java](Strings/pattern1.java) | print an triangle |
