@@ -37,3 +37,4 @@
 | [pattern1.java](Strings/pattern1.java) | print an triangle|
 | [pattern2.java](Strings/pattern2.java) | print an triangle|
 | [removeAfromStr.java](Strings/removeAfromStr.java) | remove a character from the string - using recurssion|
+| [subset_strings.java](Strings/subset_strings.java) | generate substrings from the string - using recurssion|
