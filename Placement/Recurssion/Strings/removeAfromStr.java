@@ -2,10 +2,12 @@ package Strings;
 
 public class removeAfromStr {
     public static void main(String[] args) {
-        String str = "baccad";
+        String str = "bacapplecad";
         String res_str ="";
         skip(res_str,str);
         System.out.println(res_str);
+        String word = "apple";
+        System.out.println(skip_word(str, word));
     }
 
     // my approach
@@ -53,5 +55,14 @@ public class removeAfromStr {
         }else{
              return ch+str.substring(1);
         }
+    }
+
+    // remove a word(set if characters) from the str
+    static String skip_word(String str,String word){
+        if(str.isEmpty())return"";
+        if(str.startsWith(word)){
+            return skip_word(str.substring(word.length()), word);
+        }
+        return str.charAt(0)+skip_word(str.substring(1), word);
     }
 }
